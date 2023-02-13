@@ -6,7 +6,7 @@ import {
     SafeAreaView,
     Platform,
     FlatList,
-    View
+    View,
 } from 'react-native';
 import { ButtonAdd } from "../components/ButtonAdd";
 import { SkillCard } from "../components/SkillCard";
@@ -35,6 +35,8 @@ export function Home() {
 
     return (
         <View style={styles.container}>
+            
+
             <Text style={styles.title}>Welcome, Guibson</Text>
             
             <Text style={styles.greetings}>
